@@ -15,6 +15,7 @@
   // They will be passed down to the ViewController used by React Native.
   self.initialProps = @{};
   
+
   // Define UNUserNotificationCenter
   UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
   center.delegate = (id<UNUserNotificationCenterDelegate>)self;
